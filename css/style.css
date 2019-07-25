@@ -62,16 +62,15 @@ body {
 
 header {
   text-align: center;
-  margin: -15px;
+  margin: -1vw;
   background-color: #9bd8ee;
-  padding: 78px 0px 0px 0px;
-  border-radius: 0px 150px 0 0;
-  height: 200px;
-  display: grid;
+  padding: 9vw 0vw 0vw 0vw;
+  border-radius: 0px 15vw 0 0;
+  height: 15vw;
 }
 
 header h1 {
-  font-size: 65px;
+  font-size: 5vw;
   font-family: 'Quicksand', sans-serif;
   margin-bottom: 20px;
 }
@@ -80,33 +79,33 @@ header p {
   font-family: 'Quicksand', sans-serif;
   text-align: right;
   padding-right: 40px;
+  font-size: 1vw;
 }
 
 #container {
   background-color: rgb(255, 255, 240);
-  width: 980px;
-  padding: 15px;
+  width: 100%;
+  max-width: 75%;
   min-height: 95%;
-  border-radius: 0px 150px 0 0;
+  border-radius: 0vw 15vw 0vw 0vw;
+  border-color:  #9bd8ee;
   margin: 0 auto;
   margin-top: 30px;
-  grid: display; 
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 }
 
 nav ul{
   font-family: 'Quicksand', sans-serif;
   background-color: #545454;
-  overflow: hidden;
-  margin: -15px;
-  height: 50px;
-  margin-bottom: 50px;
+  margin: -1vw;
+  height: 5vw;
+  margin-bottom: 3vw;
 }
 
 nav ul li a {
+  font-size: 100%;
   text-decoration: none;
   float:left;
-  padding: 15px 35px 15px 25px;
+  padding: 1vw 3vw 1vw 2vw;
   color: #ffff80;
 }
 
@@ -116,6 +115,10 @@ nav ul li a:hover {
   position: relative;
   top: 1px;
   right: -1px;
+}
+
+article{
+  padding: 2vw;
 }
 
 article h2 {
@@ -218,7 +221,7 @@ article a:hover, footer a:hover, #story a:hover {
 #newsletter {
   background-color: #545454;
   text-align: center;
-  width: 980px;
+  width: 100%;
   padding: 30px 0px 30px 0px;
 }
 
